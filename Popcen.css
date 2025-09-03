@@ -1,0 +1,745 @@
+/* my styles for Census Maps */
+.leaflet-container {
+    background: #F2F2F2;
+}
+.info0 {
+    padding: 6px 10px;
+    font: 16px Arial, Helvetica, sans-serif;
+    background: #E6FCFF;
+    box-shadow: 0 0 15px #1FCB4A;
+    border-radius: 5px;
+        text-align:center;
+}
+
+.infoEarthquake {
+    padding: 6px 10px;
+    font: 16px Arial, Helvetica, sans-serif;
+    background: #E6FCFF;
+    box-shadow: 0 0 15px #1FCB4A;
+    border-radius: 5px;
+    text-align:center;
+}
+
+.titlediv {
+    padding: 6px 10px;
+    font: 16px Arial, Helvetica, sans-serif;
+    background: #E6FCFF;
+    box-shadow: 0 0 15px #1FCB4A;
+    border-radius: 5px;
+}
+
+.infonep {
+    padding: 6px 8px;
+    font: 12px/14px Arial, Helvetica, sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+}
+.infonep h4 {
+    font: 14px Arial;    
+    margin: 0 0 5px;
+    color: #0000CC;
+}
+
+.info {
+    padding: 6px 8px;
+    font: 12px/14px Arial, Helvetica, sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+}
+
+.infoDead {
+    padding: 6px 8px;
+    font: 12px/14px Arial, Helvetica, sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+}
+
+.infoDead h4 {
+    font: 14px Arial;    
+    margin: 0 0 5px;
+    color: #0000CC;
+}
+
+.infoInjured {
+    padding: 6px 8px;
+    font: 12px/14px Arial, Helvetica, sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+}
+
+.infoInjured h4 {
+    font: 14px Arial;    
+    margin: 0 0 5px;
+    color: #0000CC;
+}
+
+.infoGHFD {
+    padding: 6px 8px;
+    font: 12px/14px Arial, Helvetica, sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+}
+
+.infoGHFD h4 {
+    font: 14px Arial;    
+    margin: 0 0 5px;
+    color: #0000CC;
+}
+
+.infoGHPD {
+    padding: 6px 8px;
+    font: 12px/14px Arial, Helvetica, sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+}
+
+.infoGHPD h4 {
+    font: 14px Arial;    
+    margin: 0 0 5px;
+    color: #0000CC;
+}
+
+.infoPHFD {
+    padding: 6px 8px;
+    font: 12px/14px Arial, Helvetica, sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+}
+
+.infoPHFD h4 {
+    font: 14px Arial;    
+    margin: 0 0 5px;
+    color: #0000CC;
+}
+
+.infoPHPD {
+    padding: 6px 8px;
+    font: 12px/14px Arial, Helvetica, sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+}
+
+.infoPHPD h4 {
+    font: 14px Arial;    
+    margin: 0 0 5px;
+    color: #0000CC;
+}
+
+.info h4 {
+    font: 14px Arial;    
+    margin: 0 0 5px;
+    color: #0000CC;
+}
+
+.infodist {
+    padding: 6px 8px;
+    font: 12px/14px Arial, Helvetica, sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+}
+
+.infodist h4 {
+    font: 14px Arial;    
+    margin: 0 0 5px;
+    color: #0000CC;
+}
+
+.info1 {
+    padding: 6px 8px;
+    font: 12px/14px Arial, Helvetica, sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+}
+.info1 h4 {
+    font: 14px Arial;    
+    margin: 0 0 5px;
+    color: #0000CC;
+}
+
+.infozone {
+    padding: 6px 8px;
+    font: 12px/14px Arial, Helvetica, sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+}
+.infozone h4 {
+    font: 14px Arial;    
+    margin: 0 0 5px;
+    color: #0000CC;
+}
+
+.info2 {
+    padding: 6px 8px;
+    font: 12px/14px Arial, Helvetica, sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+}
+.info2 h4 {
+    font: 14px Arial;    
+    margin: 0 0 5px;
+    color: #0000CC;
+}
+
+.inforegion {
+    padding: 6px 8px;
+    font: 12px/14px Arial, Helvetica, sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+}
+.inforegion h4 {
+    font: 14px Arial;    
+    margin: 0 0 5px;
+    color: #0000CC;
+}
+
+.infobase {
+    padding: 6px 8px;
+    font: 12px/14px Arial, Helvetica, sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+}
+.infobase h4 {
+    font: 14px Arial;    
+    margin: 0 0 5px;
+    color: #0000CC;
+}
+
+.info100k {
+    padding: 6px 8px;
+    font: 12px/14px Arial, Helvetica, sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+}
+.info100k h4 {
+    font: 14px Arial;    
+    margin: 0 0 5px;
+    color: #0000CC;
+}
+
+.info250k {
+    padding: 6px 8px;
+    font: 12px/14px Arial, Helvetica, sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+}
+.info250k h4 {
+    font: 14px Arial;    
+    margin: 0 0 5px;
+    color: #0000CC;
+}
+
+.info500k {
+    padding: 6px 8px;
+    font: 12px/14px Arial, Helvetica, sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+}
+.info500k h4 {
+    font: 14px Arial;    
+    margin: 0 0 5px;
+    color: #0000CC;
+}
+
+.infogeo {
+    padding: 6px 8px;
+    font: 14px Arial, Helvetica, sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+}
+.infogeo h4 {
+    font: 14px Arial;    
+    margin: 0 0 5px;
+    color: #0000CC;
+}
+
+.infophy {
+    padding: 6px 8px;
+    font: 14px Arial, Helvetica, sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+}
+.infophy h4 {
+    font: 14px Arial;    
+    margin: 0 0 5px;
+    color: #0000CC;
+}
+
+.infodesig {
+    padding: 6px 8px;
+    font: 14px Arial, Helvetica, sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+}
+.infodesig h4 {
+    font: 14px Arial;    
+    margin: 0 0 5px;
+    color: #0000CC;
+}
+
+.infolrmp {
+    padding: 6px 8px;
+    font: 14px Arial, Helvetica, sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+}
+.infolrmp h4 {
+    font: 14px Arial;    
+    margin: 0 0 5px;
+    color: #0000CC;
+}
+
+.legend {
+    right: 520px;
+    bottom: 0px;
+    padding: 6px 8px;
+    font: 10px sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+    line-height: 14px;
+    color: #000000;
+}
+
+.legend i {
+    width: 14px;
+    height: 14px;
+    float: left;
+    margin-right: 6px;
+    opacity: 0.7;
+}
+
+.geolegend {
+    bottom: 10px;
+    padding: 6px 8px;
+    font: 9px sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+    line-height: 14px;
+    color: #000000;
+}
+.geolegend i {
+    width: 14px;
+    height: 14px;
+    float: left;
+    margin-right: 6px;
+    opacity: 0.7;
+}
+
+.phylegend {
+    bottom: 10px;
+    padding: 6px 8px;
+    font: 10px sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+    line-height: 14px;
+    color: #000000;
+}
+.phylegend i {
+    width: 14px;
+    height: 14px;
+    float: left;
+    margin-right: 6px;
+    opacity: 0.7;
+}
+
+.desiglegend {
+    bottom: 10px;
+    padding: 6px 8px;
+    font: 10px sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+    line-height: 14px;
+    color: #000000;
+}
+.desiglegend i {
+    width: 14px;
+    height: 14px;
+    float: left;
+    margin-right: 6px;
+    opacity: 0.7;
+}
+
+    .leaflet-label-overlay0 {
+        font: 20px Arial;
+        color: #FF0000;
+        letter-spacing: 4px;
+        text-shadow:5px 5px 5px #FF99FF;
+        word-wrap: break-word;
+        text-align:center;
+        line-height:10px;
+        margin-top: -10px;
+        margin-left: -45px;
+        position: absolute;
+}
+
+    .leaflet-label-overlay1 {
+        font: 12px Arial;
+        color: #009900;
+        letter-spacing: 3px;
+        text-shadow:3px 3px 12px #A8A8FF;
+        word-wrap: break-word;
+        text-align:center;
+        line-height:10px;
+        margin-top: -20px;
+        margin-left: -45px;
+        position: absolute;
+}
+
+    .leaflet-label-overlay2 {
+        font: 10px Arial;
+        color: #FF0099;
+        letter-spacing: 1.5px;
+        text-shadow:3px 3px 10px #AD8BFE;
+        margin-top: 9px;
+        margin-left: -20px;
+        position: absolute;
+}
+
+    .leaflet-label-overlay3 {
+        font: 10px Arial;
+        //text-shadow:1px 1px 5px #A8A8A8;
+        margin-top: 9px;
+        margin-left: -15px;
+        position: absolute;
+}
+
+    .leaflet-label-overlay4 {
+        font: 12px Arial Italic;
+        color: #0000CE;
+        line-height:0px;
+        margin-top: 2px;
+        margin-left: 5px;
+        position: absolute;
+}
+
+    .leaflet-label-overlay5 {
+        font: 11px Arial Italic;
+        line-height:0px;
+        margin-top: 2px;
+        margin-left: 7px;
+        position: absolute;
+        color: #FF0000;
+}
+
+    .leaflet-label-overlayVDC {
+        font: 10px Arial;
+        line-height:0px;
+        margin-top: 2px;
+        margin-left: 10px;
+        position: absolute;
+        color: #000000;
+}
+
+    .leaflet-label-overlayEcological {
+        font: 11px Arial Italic;
+        line-height:0px;
+        margin-top: 2px;
+        margin-left: -50px;
+        position: absolute;
+        color: #CC9900;
+}
+
+    .leaflet-label-overlayBase {
+        font: 11px Arial;
+        line-height:0px;
+        margin-top: 2px;
+        margin-left: -50px;
+        position: absolute;
+        color: #FF0000;
+}
+
+    .leaflet-label-overlay100 {
+        font: 13px Arial;
+        line-height:0px;
+        margin-top: 2px;
+        margin-left: -50px;
+        position: absolute;
+        color: #0000FF;
+}
+
+    .leaflet-label-overlay250 {
+        font: 15px Arial;
+        line-height:0px;
+        margin-top: 2px;
+        margin-left: -50px;
+        position: absolute;
+        color: #CC0000;
+}
+
+    .leaflet-label-overlay500 {
+        font: 17px Arial;
+        line-height:0px;
+        margin-top: 2px;
+        margin-left: -70px;
+        position: absolute;
+        color: #1FCB4A;
+}
+
+    .leaflet-label-overlaySettl {
+        font: 12px Arial Italic;
+        line-height:0px;
+        margin-top: 2px;
+        margin-left: 7px;
+        position: absolute;
+        color: #000000;
+}
+
+    .leaflet-label-overlaylrmp {
+        font: 12px Arial;
+        line-height:0px;
+        margin-top: 2px;
+        margin-left: -50px;
+        position: absolute;
+        color: #0000FF;
+}
+
+    .leaflet-label-overlayGS {
+        font: 14px Arial;
+        line-height:0px;
+        margin-top: 2px;
+        margin-left: 7px;
+        position: absolute;
+        color: #0000FF;
+}
+
+    .leaflet-label-overlayGSname {
+        font: 12px Arial Italic;
+        line-height:0px;
+        margin-top: -10px;
+        margin-left: -10px;
+        position: absolute;
+        color: #0000FF;
+}
+
+.leaflet-map-pane {
+    z-index: 2 !important;
+}
+
+.leaflet-google-layer {
+    z-index: 1 !important;
+}
+
+    .leaflet-control-layers-group-name {
+      font-weight: bold;
+      margin-bottom: .2em;
+      display: block;
+    }
+
+    .leaflet-control-layers-group {
+      margin-bottom: .5em;
+    }
+
+    .leaflet-control-layers-group label {
+      padding-left: .5em;
+    }
+
+html, body, #map, .row-fluid {
+    background-image: url('images/images.jpg');
+    height: 100%;
+}
+#map {
+    width: 100%;
+}
+
+#button-admin {
+    position: absolute;
+    background-color: #E6FCFF;
+    border-radius: 10px;
+    bottom: 25px;
+    right: 240px;
+    width: 10%;
+    border: 2px solid #FF99CC;
+    z-index: 9999;
+}
+#button-information {
+    position: absolute;
+    background-color: #E6FCFF;
+    border-radius: 10px;
+    bottom: 25px;
+    right: 10px;
+    width: 10%;
+    border: 2px solid #FF99CC;
+    z-index: 9999;
+}
+
+#button1-information {
+    position: absolute;
+    background-color: #E6FCFF;
+    border-radius: 10px;
+    bottom: 25px;
+    right: 40px;
+    width: 10%;
+    border: 2px solid #FF99CC;
+    z-index: 9999;
+}
+
+#button2-information {
+    position: absolute;
+    background-color: #E6FCFF;
+    border-radius: 10px;
+    bottom: 25px;
+    right: 60px;
+    width: 10%;
+    border: 2px solid #FF99CC;
+    z-index: 9999;
+}
+
+.btnStyle {
+    float: right;
+    box-shadow: 0 0 15px #1FCB4A;
+    background-color: #E6FCFF;
+    border-radius: 10px;
+    padding: 1px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 2px solid #FF0000;
+    width:100%
+}
+
+#buttonDwn-information {
+    position: absolute;
+    background-color: 'transparent';
+    border-radius: 10px;
+    bottom: 25px;
+    right: 150px;
+    width: 10%;
+    border: 2px solid 'transparent';
+    z-index: 9999;
+}
+
+.btnStyleDwn {
+    float: right;
+    /*box-shadow: 0 0 15px #1FCB4A;*/
+    background-color: #E6FCFF;
+    border-radius: 5px;
+    padding: 1px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 2px solid #0000FF;
+    width:100%
+}
+
+#buttonCP-information {
+    position: absolute;
+    background-color: #E6FCFF;
+    border-radius: 10px;
+    bottom: 25px;
+    right: 260px;
+    width: 10%;
+    border: 2px solid #FF99CC;
+    z-index: 9999;
+}
+
+.pielegend {
+    bottom: 10px;
+    padding: 6px 8px;
+    font: 10px sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+    line-height: 14px;
+    color: #000000;
+}
+.pielegend i {
+    width: 14px;
+    height: 14px;
+    float: left;
+    margin-right: 6px;
+    opacity: 0.7;
+}
+
+.piramidlegend {
+    bottom: 10px;
+    padding: 6px 8px;
+    font: 9px sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+    line-height: 10px;
+    color: #000000;
+}
+.piramidlegend i {
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin-right: 6px;
+    opacity: 0.3;
+}
+
+.barlegend {
+    bottom: 10px;
+    padding: 6px 8px;
+    font: 10px sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+    line-height: 13px;
+    color: #000000;
+}
+.barlegend i {
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin-right: 6px;
+    opacity: 0.6;
+}
+
+.barlegend1 {
+    bottom: 10px;
+    padding: 6px 8px;
+    font: 11px sans-serif;
+    background: #FBEFEF;
+    box-shadow: 0 0 5px rgba(255,0,0,0.8);
+    border-radius: 5px;
+    line-height: 17px;
+    color: #000000;
+}
+.barlegend1 i {
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin-right: 6px;
+    opacity: 1;
+}
+circle.ping {
+    stroke: #000;
+    stroke-width: 1px;
+    fill: red;
+}
+
+.link_button {
+    float: right;
+    box-shadow: 0 0 15px #1FCB4A;
+    background-color: #E6FCFF;
+    border-radius: 10px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 2px solid #FF0000;
+    text-align:center;
+    width:96%
+}
